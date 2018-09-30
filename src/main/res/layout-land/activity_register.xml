@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/txtFName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="#3B4E68"
+        android:hint="First Name"
+        android:inputType="text"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/txtLName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:background="#3B4E68"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/txtEmailReg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:background="#3B4E68"
+        android:hint="Enter your Email"
+        android:inputType="text"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/txtPasswordReg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp"
+        android:background="#3B4E68"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/txtConfirmPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp"
+        android:background="#3B4E68"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="100dp"
+        android:layout_height="31dp"
+        android:layout_alignEnd="@+id/txtFName"
+        android:layout_alignTop="@+id/btnCancel"
+        android:background="#FF0083"
+        android:text="Confirm"
+        android:textAllCaps="true"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="100dp"
+        android:layout_height="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtFName"
+        android:layout_marginBottom="24dp"
+        android:background="#FF0083"
+        android:text="Cancel"
+        android:textAllCaps="true"
+        android:textColor="#fff" />
+
+
+    <TextView
+        android:id="@+id/txtInvalidPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPasswordReg"
+        android:text=""
+        android:textColor="#BF0000"
+        android:textSize="10dp" />
+
+
+    <TextView
+        android:id="@+id/txtInvalidEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEmailReg"
+        android:text=""
+        android:textColor="#BF0000"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/txtInvalidConfirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtConfirmPassword"
+        android:layout_marginTop="-185dp"
+        android:text=""
+        android:textColor="#BF0000"
+        android:textSize="10dp" />
+</RelativeLayout>
