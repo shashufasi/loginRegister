@@ -12,7 +12,7 @@
         android:layout_width="267dp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/txtViewMessage"
-        android:layout_centerHorizontal="true"
+        android:layout_centerHorizontal="true" 
         android:background="#3B4E68"
         android:drawableLeft="@drawable/ic_action_user"
         android:hint="Enter your Email"
